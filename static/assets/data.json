@@ -9,7 +9,7 @@
     },
     "about-section": {
         "about_lead": "I am a roboticist with demonstrated experience of working at a hyper-growth startup. I am passionate about building technology-driven solutions to real-world challenges, particularly in the domains of manufacturing 🏭, agriculture 🌳 and space 🚀. I am eager to learn from mentors and peers who share my enthusiasm and vision.",
-        "about_conclude": "My ultimate goal is to be a truly great engineer: one who can envision non-existent technologies to solve the world's problems, and critically, possesses the technical prowess and discipline to bring those visions into reality.",
+        "about_conclude": "My ultimate goal is to be a truly great engineer: one who can envision non-existent technologies to solve the world's greatest problems, and who possesses the technical prowess and discipline to bring those visions into reality.",
         "skills": [
             "C++",
             "Python",
@@ -17,10 +17,10 @@
             "Computer Vision",
             "Robot Learning",
             "SLAM",
-            "Embedded Systems",
             "Motion Planning",
             "Robot Simulation",
-            "Sensor Fusion"
+            "Sensor Fusion",
+            "Embedded Systems"
         ],
         "education": "M.S., Computer Science (Robotics) at USC.",
         "experience": "Software, controls, hardware interfaces, perception, autonomy.",
