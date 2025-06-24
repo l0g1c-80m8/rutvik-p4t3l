@@ -222,6 +222,27 @@
             },
             "buttons": []
             }
+    ],
+    "personal-life": [
+        {
+            "title": "Go Karting",
+            "description": "Racing enthusiast with a passion for high-speed karting. Love the engineering behind these machines and the precision required for competitive racing.",
+            "video": "https://www.youtube.com/embed/kNXEpESH5co?si=cxcaa06oOzB2dY3I",
+            "gradient": "from-red-500/20 to-orange-500/20"
+        },
+        {
+            "title": "Strategy Games",
+            "description": "Passionate about strategy games, particularly Age of Mythology Retold and Sins of a Solar Empire II. Love the tactical depth and mythological and futuristic themes respectfully.",
+            "video": "https://www.youtube.com/embed/gZLDrbpEPjI?si=7MH6Go2R-A5bW4W4",
+            "gradient": "from-purple-500/20 to-blue-500/20"
+        },
+        {
+            "title": "Legendary Game Worlds",
+            "description": "Enthusiastic about story-driven games which blend rich characters, cinematic visuals, immersive mechanics, and powerful music — true masterpieces of modern interactive art.",
+            "video": "https://www.youtube.com/embed/fllsKUNp8VA?si=8ERpr9DtfKjwCB7b",
+            "gradient": "from-yellow-500/20 to-amber-500/20"
+        }
 
     ]
+
 }
