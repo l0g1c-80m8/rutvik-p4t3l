@@ -32,42 +32,14 @@
 
     <!-- Template Loader -->
     <script src="static/js/template-loader.js"></script>
+
+    <!-- Components -->
+    <script src="static/js/navigation.js"></script>
+    <script src="static/js/footer.js"></script>
 </head>
 <body class="dark bg-dark-bg text-gray-100 font-sans">
     <!-- Navigation -->
-    <nav class="fixed top-0 w-full bg-dark-bg/95 backdrop-blur-sm border-b border-gray-800 z-50">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold bg-gradient-to-r from-robot-blue to-robot-purple bg-clip-text text-transparent">
-                    YourName.dev
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#home" class="nav-link hover:text-robot-blue transition-colors">Home</a>
-                    <a href="#about" class="nav-link hover:text-robot-blue transition-colors">About</a>
-                    <a href="#research" class="nav-link hover:text-robot-blue transition-colors">Research</a>
-                    <a href="#projects" class="nav-link hover:text-robot-blue transition-colors">Projects</a>
-                    <a href="#work" class="nav-link hover:text-robot-blue transition-colors">Industry Work</a>
-                    <a href="#personal" class="nav-link hover:text-robot-blue transition-colors">Personal</a>
-                    <a href="#contact" class="nav-link hover:text-robot-blue transition-colors">Contact</a>
-                </div>
-                <button id="mobile-menu-btn" class="md:hidden text-2xl">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-            <!-- Mobile Menu -->
-            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-800">
-                <div class="flex flex-col space-y-3 mt-4">
-                    <a href="#home" class="nav-link hover:text-robot-blue transition-colors">Home</a>
-                    <a href="#about" class="nav-link hover:text-robot-blue transition-colors">About</a>
-                    <a href="#research" class="nav-link hover:text-robot-blue transition-colors">Research</a>
-                    <a href="#projects" class="nav-link hover:text-robot-blue transition-colors">Projects</a>
-                    <a href="#work" class="nav-link hover:text-robot-blue transition-colors">Industry Work</a>
-                    <a href="#personal" class="nav-link hover:text-robot-blue transition-colors">Personal</a>
-                    <a href="#contact" class="nav-link hover:text-robot-blue transition-colors">Contact</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <portfolio-navigation></portfolio-navigation>
 
     <!-- Hero Section -->
     <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6">
@@ -756,7 +728,6 @@
     </section>
 
     <!-- Footer -->
-    <script src="static/js/footer.js"></script>
     <portfolio-footer name="Rutvik Patel 🍉" tagline="Built with precision, driven by purpose."></portfolio-footer>
 
     <script src="static/js/script.js"></script>
