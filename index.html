@@ -7,6 +7,7 @@
 
     <!-- External -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
     <!-- Stylesheet -->
@@ -35,6 +36,7 @@
 
     <!-- Components -->
     <script src="static/js/navigation.js"></script>
+    <script src="static/js/hero-section.js"></script>
     <script src="static/js/footer.js"></script>
 </head>
 <body class="dark bg-dark-bg text-gray-100 font-sans">
@@ -42,34 +44,7 @@
     <portfolio-navigation></portfolio-navigation>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6">
-        <div class="text-center max-w-4xl mx-auto">
-            <div class="relative mb-8">
-                <div class="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-robot-blue to-robot-purple p-1">
-                    <div class="w-full h-full rounded-full bg-dark-bg flex items-center justify-center">
-                        <i class="fas fa-robot text-6xl text-robot-blue"></i>
-                    </div>
-                </div>
-            </div>
-            <h1 class="text-5xl md:text-7xl font-bold mb-6">
-                <span class="bg-gradient-to-r from-robot-blue to-robot-purple bg-clip-text text-transparent">
-                    Robotics Engineer
-                </span>
-            </h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-                Master's Graduate • Industry Professional • ROS Expert<br>
-                Bridging the gap between research and real-world robotics applications
-            </p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <button class="bg-gradient-to-r from-robot-blue to-robot-purple px-8 py-3 rounded-full font-semibold hover:scale-105 transition-transform">
-                    View My Work
-                </button>
-                <button class="border border-gray-600 px-8 py-3 rounded-full font-semibold hover:border-robot-blue transition-colors">
-                    Download CV
-                </button>
-            </div>
-        </div>
-    </section>
+    <hero-section></hero-section>
 
     <!-- About Section -->
     <section id="about" class="py-20 px-6">
