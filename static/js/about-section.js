@@ -2,7 +2,6 @@ class AboutSection extends HTMLElement {
     async connectedCallback() {
         const html = await window.templateLoader.loadTemplate('static/html/about-section.html');
         if (html) {
-            if (html) {
             try {
                 const response = await fetch('static/assets/data.json');
                 const rawData = await response.json();
@@ -28,8 +27,9 @@ class AboutSection extends HTMLElement {
                     experience:'',
                     research: '',
                 });
+            } finally {
+                window.dynamicComponentTracker.markLoaded();
             }
-        }
         }
     }
 }

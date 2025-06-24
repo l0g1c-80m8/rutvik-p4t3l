@@ -242,7 +242,62 @@
             "video": "https://www.youtube.com/embed/fllsKUNp8VA?si=8ERpr9DtfKjwCB7b",
             "gradient": "from-yellow-500/20 to-amber-500/20"
         }
-
-    ]
-
+    ],
+    "contact-section": {
+        "title": "Let's Connect",
+        "subtitle": "Interested in robotics, research collaboration, or just want to chat about technology? I'd love to hear from you!",
+        "contacts": [
+        {
+            "label": "Email",
+            "icon": "fas fa-envelope",
+            "link": "mailto:rutvikra@usc.edu",
+            "text": "rutvikra[at]usc[dot]edu"
+        },
+        {
+            "label": "LinkedIn",
+            "icon": "fab fa-linkedin",
+            "link": "https://www.linkedin.com/in/rutvik-p4t3l",
+            "text": "Professional Network"
+        },
+        {
+            "label": "GitHub",
+            "icon": "fab fa-github",
+            "link": "https://github.com/l0g1c-80m8",
+            "text": "Open Source Projects"
+        },
+        {
+            "label": "Google Scholar",
+            "icon": "fas fa-graduation-cap",
+            "link": "https://scholar.google.com/citations?user=tVhtLNwAAAAJ&hl=en&oi=ao",
+            "text": "Research Publications"
+        }
+        ],
+        "form": {
+        "heading": "Send Me a Message",
+        "fields": {
+            "name": {
+            "label": "Name",
+            "type": "text",
+            "placeholder": "Your full name"
+            },
+            "email": {
+            "label": "Email",
+            "type": "email",
+            "placeholder": "you@example.com"
+            },
+            "subject": {
+            "label": "Subject",
+            "type": "text",
+            "placeholder": "Subject of your message"
+            },
+            "message": {
+            "label": "Message",
+            "type": "textarea",
+            "placeholder": "Write your message here"
+            }
+        },
+        "submitText": "Send Message",
+        "successMessage": "Thank you for reaching out! I'll get back to you soon."
+        }
+    }
 }

@@ -43,6 +43,7 @@
     <script src="static/js/project-section.js"></script>
     <script src="static/js/industry-section.js"></script>
     <script src="static/js/personal-section.js"></script>
+    <script src="static/js/contact-section.js"></script>
     <script src="static/js/footer.js"></script>
 </head>
 <body class="dark bg-dark-bg text-gray-100 font-sans">
@@ -68,71 +69,7 @@
      <personal-section></personal-section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 px-6 bg-dark-card/30">
-        <div class="container mx-auto max-w-4xl text-center">
-            <h2 class="text-4xl font-bold mb-8 bg-gradient-to-r from-robot-blue to-robot-purple bg-clip-text text-transparent">
-                Let's Connect
-            </h2>
-            <p class="text-xl text-gray-300 mb-12">
-                Interested in robotics, research collaboration, or just want to chat about technology? 
-                I'd love to hear from you!
-            </p>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-                <a href="mailto:your.email@example.com" class="bg-dark-card p-6 rounded-xl border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <i class="fas fa-envelope text-3xl text-robot-blue mb-4 group-hover:scale-110 transition-transform"></i>
-                    <h3 class="font-semibold mb-2">Email</h3>
-                    <p class="text-gray-400 text-sm">your.email@example.com</p>
-                </a>
-                
-                <a href="https://linkedin.com/in/yourprofile" class="bg-dark-card p-6 rounded-xl border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <i class="fab fa-linkedin text-3xl text-robot-blue mb-4 group-hover:scale-110 transition-transform"></i>
-                    <h3 class="font-semibold mb-2">LinkedIn</h3>
-                    <p class="text-gray-400 text-sm">Professional Network</p>
-                </a>
-                
-                <a href="https://github.com/yourusername" class="bg-dark-card p-6 rounded-xl border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <i class="fab fa-github text-3xl text-robot-blue mb-4 group-hover:scale-110 transition-transform"></i>
-                    <h3 class="font-semibold mb-2">GitHub</h3>
-                    <p class="text-gray-400 text-sm">Open Source Projects</p>
-                </a>
-                
-                <a href="https://scholar.google.com/citations?user=yourprofile" class="bg-dark-card p-6 rounded-xl border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <i class="fas fa-graduation-cap text-3xl text-robot-blue mb-4 group-hover:scale-110 transition-transform"></i>
-                    <h3 class="font-semibold mb-2">Google Scholar</h3>
-                    <p class="text-gray-400 text-sm">Research Publications</p>
-                </a>
-            </div>
-
-            <!-- Contact Form -->
-            <div class="bg-dark-card rounded-xl p-8 border border-gray-800 max-w-2xl mx-auto">
-                <h3 class="text-2xl font-semibold mb-6">Send Me a Message</h3>
-                <form class="space-y-6">
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block text-sm font-medium text-gray-300 mb-2">Name</label>
-                            <input type="text" class="w-full bg-dark-bg border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-robot-blue focus:outline-none transition-colors">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                            <input type="email" class="w-full bg-dark-bg border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-robot-blue focus:outline-none transition-colors">
-                        </div>
-                    </div>
-                    <div>
-                        <label class="block text-sm font-medium text-gray-300 mb-2">Subject</label>
-                        <input type="text" class="w-full bg-dark-bg border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-robot-blue focus:outline-none transition-colors">
-                    </div>
-                    <div>
-                        <label class="block text-sm font-medium text-gray-300 mb-2">Message</label>
-                        <textarea rows="5" class="w-full bg-dark-bg border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-robot-blue focus:outline-none transition-colors resize-none"></textarea>
-                    </div>
-                    <button type="submit" class="w-full bg-gradient-to-r from-robot-blue to-robot-purple px-8 py-3 rounded-lg font-semibold hover:scale-105 transition-transform">
-                        Send Message
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
+    <contact-section></contact-section>
 
     <!-- Footer -->
     <portfolio-footer name="Rutvik Patel" tagline="Built with precision, driven by purpose."></portfolio-footer>
