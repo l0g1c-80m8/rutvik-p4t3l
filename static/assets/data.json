@@ -25,5 +25,50 @@
         "education": "M.S., Computer Science (Robotics) at USC.",
         "experience": "Software, controls, hardware interfaces, perception, autonomy.",
         "research": "Robotic tool manipulation, robot learning, foundational models."
-    }
+    },
+    "research-section": [
+        {
+            "type": "journal",
+            "title": "Autonomous Robotic Screwdriving for High-Mix Manufacturing",
+            "venue": "Robotics and Computer-Integrated Manufacturing (RCIM)",
+            "description": "An autonomous mobile robot system for high-mix screwdriving that handles significant uncertainties by using physics-informed learning to predict screw-tip dynamics.",
+            "tags": ["Tool Manipulation", "Robot Learning", "Manufacturing Automation", "Physics-Informed Learning"],
+            "image": "static/assets/screwdriving.jpg",
+            "resources": {}
+        },
+        {
+            "type": "workshop",
+            "title": "Identifying Precursors to Failures in Robotic Lift-and-Place Tasks",
+            "venue": "2025 Robotics Science and Systems (RSS)",
+            "description": "Proactive failure prediction for lift-and-place tasks by analyzing relative object motion to anticipate failures before they occur. This method significantly improves generalization to unseen objects and provides more precise early warnings of potential failures, validated through both simulation and real-world experiments.",
+            "tags": ["Robot Manipulation", "Failure Prediction", "Robot Learning"],
+            "image": "static/assets/failure-prediction-pipeline.png",
+            "resources": {}
+        },
+        {
+            "type": "conference",
+            "title": "Integrating field of view in human-aware collaborative planning",
+            "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+            "description": "This paper integrates human field-of-view (FOV) limitations into robot planning by adapting to the evolving subtask intent of humans based on their limited perception using a hierarchical online planner.",
+            "tags": ["Human-Robot Collaboration", "Online Planning", "Human Modelling"],
+            "image": "static/assets/belief-tree.png",
+            "resources": {
+            "paper": "https://arxiv.org/abs/2505.14805",
+            "code": "https://github.com/SophieHsu/view-aware-hrc?tab=readme-ov-file"
+            }
+        },
+        {
+            "type": "conference",
+            "title": "Automated Plan Refinement for Improving Efficiency of Robotic Layup of Composite Sheets",
+            "venue": "2025 IEEE International Conference on Automation Science and Engineering (CASE)",
+            "description": "Robotic composite sheet layup framework that refines robot draping plans by combining human expertise with data-driven learning.",
+            "tags": ["Tool Manipulation", "Robot Learning", "Manufacturing Automation", "Online Planning"],
+            "image": "static/assets/automated-plan-refinement.png",
+            "resources": {
+            "paper": "https://arxiv.org/abs/2506.18160",
+            "video": "https://youtu.be/r97ruw9LwaE?feature=shared",
+            "site": "https://plan-refinement.github.io/"
+            }
+        }
+    ]
 }

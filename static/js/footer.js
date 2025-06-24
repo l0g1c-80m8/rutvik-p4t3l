@@ -24,6 +24,9 @@ class Footer extends HTMLElement {
                     tagline: ''
                 });
             }
+            finally {
+                window.dynamicComponentTracker.markLoaded();
+            }
         }
     }
 }

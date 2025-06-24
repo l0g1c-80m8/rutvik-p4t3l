@@ -4,6 +4,7 @@ class Navigation extends HTMLElement {
         if (html) {
             this.innerHTML = html;
         }
+        window.dynamicComponentTracker.markLoaded();
     }
 }
 

@@ -1,6 +1,4 @@
-// Portfolio Website JavaScript
-
-document.addEventListener('DOMContentLoaded', function() {
+function initPageScripts() {
     // Mobile menu toggle
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -308,7 +306,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 icon.className = originalClass;
                 button.disabled = false;
                 
-                // Here you would typically open a modal or navigate to the content
                 console.log('Opening:', this.textContent.trim());
                 
                 // Show a simple notification
@@ -499,6 +496,19 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
+}
 
-    console.log('Portfolio JavaScript initialized successfully!');
-});
+window.dynamicComponentTracker = {
+    expected: 4,
+    loaded: 0,
+    markExpected() {
+        this.expected++;
+    },
+    markLoaded() {
+        this.loaded++;
+        if (this.loaded === this.expected) {
+            console.log('🍉 All components loaded');
+            initPageScripts();
+        }
+    }
+};

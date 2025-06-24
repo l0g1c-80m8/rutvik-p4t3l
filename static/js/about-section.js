@@ -24,7 +24,9 @@ class AboutSection extends HTMLElement {
                 this.innerHTML = compiledTemplate({
                     about_lead: '',
                     about_conclude: '',
-                    skills: []
+                    skills: [],
+                    experience:'',
+                    research: '',
                 });
             }
         }
