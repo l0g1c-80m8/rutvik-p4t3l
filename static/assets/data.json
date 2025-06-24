@@ -162,5 +162,66 @@
                 ]
             }
         }
+    ],
+    "industry-section": [
+        {
+            "title": "Robotic Cell Calibration",
+            "description": "Designed and implemented a high-precision calibration pipeline for an industrial robotic cell involving multiple manipulators and external sensors. The system integrated Leica laser scanners and Fanuc robots to achieve accurate spatial alignment across tools, workpieces, and vision systems, enabling coordinated multi-robot operations.",
+            "icon": "fas fa-industry",
+            "iconBackground": "bg-gradient-to-r from-robot-blue to-robot-purple",
+            "leftColumn": {
+                "title": "Components and Tools",
+                "items": ["Leica Laser Scanner", "Fanuc M-720", "Fanuc CRX-10", "PolyWorks Inspector"]
+            },
+            "rightColumn": {
+                "title": "Key Achievements",
+                "items": [
+                "Max positional error: 1820 µm",
+                "Mean positional error: 645 µm",
+                "10× accuracy improvement over prior method"
+                ]
+            },
+            "buttons": [
+                { "label": "Data Collection Demo", "icon": "fas fa-video", "url": "#" },
+                { "label": "Performance Data", "icon": "fas fa-chart-line", "url": "#" }
+            ]
+        },
+        {
+            "title": "ROS 2 Migration & Refactoring",
+            "description": "Led the full migration of a large industrial robotics codebase from ROS Noetic (ROS 1) to ROS 2 Humble. This included redesigning node communication patterns, migrating launch and parameter systems, refactoring legacy packages, and ensuring real-time and deterministic performance across distributed components.",
+            "icon": "fas fa-diagram-project",
+            "iconBackground": "bg-gradient-to-r from-amber-500 to-rose-500",
+            "leftColumn": {
+                "title": "Migrated Components",
+                "items": ["Architecture Refactoring", "Lifecycle Nodes", "Launch Files", "Parameter Interfaces"]
+            },
+            "rightColumn": {
+                "title": "Migration Impact",
+                "items": [
+                    "Future-proofed for real-time deployments",
+                    "Improved system modularity and separation of concerns",
+                    "Reduced technical debt by removing deprecated ROS 1 APIs"
+                ]
+            },
+            "buttons": []
+        },
+        {
+            "title": "Surface Reconstruction for Robotic Finishing",
+            "description": "Designed a robust surface reconstruction pipeline for industrial robotic applications aimed at automating complex surface finishing tasks such as sanding, grinding, and polishing. The system fuses multi-sensor data to generate high-fidelity 3D surface models, enabling accurate toolpath planning on freeform and irregular geometries. The algorithm explores the use of SLAM, implicit surface modeling, and deep learning for generalization across materials and shapes.",
+            "icon": "fas fa-cubes",
+            "iconBackground": "bg-gradient-to-r from-emerald-500 to-teal-400",
+            "leftColumn": {
+                "title": "Technologies Leveraged",
+                "items": ["Multi-View SLAM", "Convex Optimization", "Implicit Surfaces", "Deep Learning"]
+            },
+            "rightColumn": {
+                "title": "Performance Metrics",
+                "items": [
+                    "Coming soon!"
+                ]
+            },
+            "buttons": []
+            }
+
     ]
 }

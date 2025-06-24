@@ -499,7 +499,7 @@ function initPageScripts() {
 }
 
 window.dynamicComponentTracker = {
-    expected: 4,
+    expected: 6,
     loaded: 0,
     markExpected() {
         this.expected++;
