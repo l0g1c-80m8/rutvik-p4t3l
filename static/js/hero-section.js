@@ -2,7 +2,6 @@ class HeroSection extends HTMLElement {
     async connectedCallback() {
         const html = await window.templateLoader.loadTemplate('static/html/hero-section.html');
         if (html) {
-            if (html) {
             try {
                 const response = await fetch('static/assets/data.json');
                 const rawData = await response.json();
@@ -22,7 +21,9 @@ class HeroSection extends HTMLElement {
                     subtitle: ''
                 });
             }
-        }
+            finally {
+                window.dynamicComponentTracker.markLoaded();
+            }
         }
     }
 }

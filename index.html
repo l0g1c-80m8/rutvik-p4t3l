@@ -31,13 +31,15 @@
         }
     </script>
 
-    <!-- Template Loader -->
+    <!-- Util scripts -->
     <script src="static/js/template-loader.js"></script>
+    <script src="static/js/script.js"></script>
 
     <!-- Components -->
     <script src="static/js/navigation.js"></script>
     <script src="static/js/hero-section.js"></script>
     <script src="static/js/about-section.js"></script>
+    <script src="static/js/research-section.js"></script>
     <script src="static/js/footer.js"></script>
 </head>
 <body class="dark bg-dark-bg text-gray-100 font-sans">
@@ -51,130 +53,7 @@
     <about-section></about-section>
 
     <!-- Research Publications Section -->
-    <section id="research" class="py-20 px-6 bg-dark-card/30">
-        <div class="container mx-auto max-w-6xl">
-            <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-robot-blue to-robot-purple bg-clip-text text-transparent">
-                Research & Publications
-            </h2>
-            
-            <!-- Filter Tabs -->
-            <div class="flex justify-center mb-12">
-                <div class="bg-dark-card rounded-full p-1 border border-gray-800">
-                    <button class="publication-filter active px-6 py-2 rounded-full transition-all" data-filter="all">All</button>
-                    <button class="publication-filter px-6 py-2 rounded-full transition-all" data-filter="conference">Conference</button>
-                    <button class="publication-filter px-6 py-2 rounded-full transition-all" data-filter="journal">Journal</button>
-                    <button class="publication-filter px-6 py-2 rounded-full transition-all" data-filter="workshop">Workshop</button>
-                </div>
-            </div>
-
-            <div id="publications-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Conference Paper Example -->
-                <div class="publication-card conference bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <div class="h-48 bg-gradient-to-br from-robot-blue/20 to-robot-purple/20 relative overflow-hidden">
-                        <img src="https://via.placeholder.com/400x200/1a1a1a/00d4ff?text=Research+Image" alt="Research" class="w-full h-full object-cover opacity-80">
-                        <div class="absolute top-4 right-4">
-                            <span class="bg-robot-blue/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">Conference</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-3 group-hover:text-robot-blue transition-colors">
-                            Advanced Path Planning for Autonomous Mobile Robots
-                        </h3>
-                        <p class="text-gray-400 text-sm mb-4">ICRA 2024 • IEEE International Conference on Robotics and Automation</p>
-                        <p class="text-gray-300 mb-4 line-clamp-3">
-                            Novel approach to multi-robot path planning using distributed optimization techniques...
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Path Planning</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Multi-Robot</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-file-pdf"></i> Paper
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-video"></i> Video
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-external-link-alt"></i> Site
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Journal Paper Example -->
-                <div class="publication-card journal bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <div class="h-48 bg-gradient-to-br from-green-500/20 to-blue-500/20 relative overflow-hidden">
-                        <img src="https://via.placeholder.com/400x200/1a1a1a/22c55e?text=Vision+System" alt="Research" class="w-full h-full object-cover opacity-80">
-                        <div class="absolute top-4 right-4">
-                            <span class="bg-green-500/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">Journal</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-3 group-hover:text-robot-blue transition-colors">
-                            Real-time Object Detection for Robotic Manipulation
-                        </h3>
-                        <p class="text-gray-400 text-sm mb-4">IEEE Transactions on Robotics • 2024</p>
-                        <p class="text-gray-300 mb-4 line-clamp-3">
-                            Deep learning approach for real-time object detection and pose estimation in cluttered environments...
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Computer Vision</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Manipulation</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-file-pdf"></i> Paper
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-video"></i> Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Workshop Paper Example -->
-                <div class="publication-card workshop bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <div class="h-48 bg-gradient-to-br from-purple-500/20 to-pink-500/20 relative overflow-hidden">
-                        <img src="https://via.placeholder.com/400x200/1a1a1a/8b5cf6?text=ROS+Framework" alt="Research" class="w-full h-full object-cover opacity-80">
-                        <div class="absolute top-4 right-4">
-                            <span class="bg-purple-500/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">Workshop</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-3 group-hover:text-robot-blue transition-colors">
-                            ROS 2 Framework for Distributed Robot Coordination
-                        </h3>
-                        <p class="text-gray-400 text-sm mb-4">IROS 2024 Workshop • Multi-Robot Systems</p>
-                        <p class="text-gray-300 mb-4 line-clamp-3">
-                            Implementation of a distributed coordination framework using ROS 2 for multi-robot scenarios...
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">ROS 2</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Distributed Systems</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-file-pdf"></i> Paper
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-external-link-alt"></i> Demo Site
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <research-section></research-section>
 
     <!-- Personal Projects Section -->
     <section id="projects" class="py-20 px-6">
@@ -663,7 +542,5 @@
 
     <!-- Footer -->
     <portfolio-footer name="Rutvik Patel 🍉" tagline="Built with precision, driven by purpose."></portfolio-footer>
-
-    <script src="static/js/script.js"></script>
 </body>
 </html>
