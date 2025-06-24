@@ -40,6 +40,7 @@
     <script src="static/js/hero-section.js"></script>
     <script src="static/js/about-section.js"></script>
     <script src="static/js/research-section.js"></script>
+    <script src="static/js/project-section.js"></script>
     <script src="static/js/footer.js"></script>
 </head>
 <body class="dark bg-dark-bg text-gray-100 font-sans">
@@ -56,117 +57,7 @@
     <research-section></research-section>
 
     <!-- Personal Projects Section -->
-    <section id="projects" class="py-20 px-6">
-        <div class="container mx-auto max-w-6xl">
-            <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-robot-blue to-robot-purple bg-clip-text text-transparent">
-                Personal Projects
-            </h2>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Robot Build Example -->
-                <div class="bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <div class="h-64 bg-gradient-to-br from-orange-500/20 to-red-500/20 relative overflow-hidden">
-                        <img src="https://via.placeholder.com/400x250/1a1a1a/f97316?text=Custom+Robot" alt="Robot Build" class="w-full h-full object-cover opacity-80">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="bg-orange-500/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">Hardware Build</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-3 group-hover:text-robot-blue transition-colors">
-                            Autonomous Delivery Robot
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            Custom-built autonomous robot for indoor navigation and delivery tasks using ROS 2, LiDAR, and computer vision.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">ROS 2</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">SLAM</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Arduino</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-video"></i> Demo Video
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-images"></i> Gallery
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quadcopter Project -->
-                <div class="bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <div class="h-64 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 relative overflow-hidden">
-                        <img src="https://via.placeholder.com/400x250/1a1a1a/06b6d4?text=Quadcopter" alt="Quadcopter" class="w-full h-full object-cover opacity-80">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="bg-cyan-500/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">UAV Project</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-3 group-hover:text-robot-blue transition-colors">
-                            Custom Racing Quadcopter
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            Built from scratch racing drone with custom flight controller firmware and telemetry system.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Flight Control</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Embedded C</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">PID Control</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-video"></i> Flight Test
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Robotic Arm Project -->
-                <div class="bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
-                    <div class="h-64 bg-gradient-to-br from-green-500/20 to-emerald-500/20 relative overflow-hidden">
-                        <img src="https://via.placeholder.com/400x250/1a1a1a/10b981?text=Robotic+Arm" alt="Robotic Arm" class="w-full h-full object-cover opacity-80">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="bg-emerald-500/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">Manipulation</span>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-3 group-hover:text-robot-blue transition-colors">
-                            6-DOF Robotic Arm
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            Designed and built a 6-axis robotic arm with inverse kinematics solver and visual servoing capabilities.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Kinematics</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">Computer Vision</span>
-                            <span class="bg-dark-bg px-2 py-1 rounded text-xs text-robot-blue">3D Printing</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fab fa-github"></i> Repository
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-video"></i> Demo
-                            </a>
-                            <a href="#" class="text-robot-blue hover:text-robot-purple transition-colors">
-                                <i class="fas fa-cube"></i> CAD Files
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <project-section></project-section>
 
     <!-- Industry Work Section -->
     <section id="work" class="py-20 px-6 bg-dark-card/30">
@@ -541,6 +432,6 @@
     </section>
 
     <!-- Footer -->
-    <portfolio-footer name="Rutvik Patel 🍉" tagline="Built with precision, driven by purpose."></portfolio-footer>
+    <portfolio-footer name="Rutvik Patel" tagline="Built with precision, driven by purpose."></portfolio-footer>
 </body>
 </html>

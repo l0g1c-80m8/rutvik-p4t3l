@@ -70,5 +70,97 @@
             "site": "https://plan-refinement.github.io/"
             }
         }
+    ],
+    "project-section": [
+        {
+            "title": "Lidar Obstacle Detection",
+            "caption": "Self-Driving Car",
+            "detail": "Custom-built autonomous drone stack with navigation, control and sensor estimation built in simulation.",
+            "image": "static/assets/obstacle-detection.gif",
+            "topic": ["Segmentation", "Clustering", "PCL"],
+            "resources": {
+                "code": [
+                    {
+                        "url": "https://github.com/l0g1c-80m8/lidar-obstacle-detection",
+                        "label": "Code"
+                    }
+                ],
+                "video": "https://youtu.be/ApeltwE5bfs?feature=shared"
+            }
+        },
+        {
+            "title": "Drone Naviation Stack",
+            "caption": "UAV",
+            "detail": "Custom-built autonomous drone stack with navigation, control and sensor estimation built in simulation.",
+            "image": "static/assets/control.gif",
+            "topic": ["A*", "RRT", "PID Control", "EKF"],
+            "resources": {
+                "code": [
+                    {
+                        "url": "https://github.com/l0g1c-80m8/3d-motion-planning",
+                        "label": "Planning"
+                    },
+                    {
+                        "url": "https://github.com/l0g1c-80m8/3d-drone-controller",
+                        "label": "Control"
+                    },
+                    {
+                        "url": "https://github.com/l0g1c-80m8/3d-drone-estimation",
+                        "label": "Estimation"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Dynamic Environment Generation",
+            "caption": "Environment Generation",
+            "detail": "Dynamically generate novel grid based 2D environments and photorealistic 3D indoor environments for planning tasks.",
+            "image": "static/assets/2d-environment.png",
+            "topic": ["GAN", "Kernels"],
+            "resources": {
+                "code": [
+                    {
+                        "url": "https://github.com/l0g1c-80m8/3d-motion-planning",
+                        "label": "2D Env"
+                    },
+                    {
+                        "url": "https://github.com/l0g1c-80m8/3d-drone-controller",
+                        "label": "3D Env"
+                    }
+                ],
+                "gallery": "https://drive.google.com/drive/folders/1xtusEuXeP_PbV9WKFjP3LQ33hYFS6LJq?usp=sharing"
+            }
+        },
+        {
+            "title": "Service Robot Simulation",
+            "caption": "ROS Simulation",
+            "detail": "Mobile robot simulation to orchastrate a pick and place operation in a photorealistic 3D indoor environment.",
+            "image": "static/assets/service-robot-mission.png",
+            "topic": ["ROS", "Gazebo", "ROS nav stack"],
+            "resources": {
+                "code": [
+                    {
+                        "url": "https://github.com/l0g1c-80m8/Service-Robot",
+                        "label": "Code"
+                    }
+                ],
+                "video": "https://youtu.be/rSl79VL5CbI?feature=shared"
+            }
+        },
+        {
+            "title": "Route Planning",
+            "caption": "Maps",
+            "detail": "Planning a route using A* algorithm on data from Open Street Map project.",
+            "image": "static/assets/street-plan.png",
+            "topic": ["Open Street Maps", "A*"],
+            "resources": {
+                "code": [
+                    {
+                        "url": "https://github.com/l0g1c-80m8/osm-route-planner",
+                        "label": "Code"
+                    }
+                ]
+            }
+        }
     ]
 }
