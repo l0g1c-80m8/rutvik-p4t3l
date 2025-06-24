@@ -498,8 +498,10 @@ function initPageScripts() {
     }
 }
 
+const NUM_COMPONENTS = 9; // Total number of components to load
+
 window.dynamicComponentTracker = {
-    expected: 7,
+    expected: NUM_COMPONENTS,
     loaded: 0,
     markExpected() {
         this.expected++;
