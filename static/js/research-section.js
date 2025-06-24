@@ -100,7 +100,7 @@ class ResearchSection extends HTMLElement {
         <div class="publication-card ${paper.type} bg-dark-card rounded-xl overflow-hidden border border-gray-800 hover:border-robot-blue/50 transition-all group">
             <div class="h-48 bg-gradient-to-br ${bgGradient[paper.type] || 'from-gray-700 to-gray-900'} relative overflow-hidden">
                 <img src="${paper.image}" alt="${paper.title}" class="w-full h-full object-cover opacity-80">
-                <div class="absolute top-4 right-4">
+                <div class="absolute bottom-4 right-4">
                     <span class="bg-${tagColors[paper.type] || 'gray-500'}/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium capitalize">${paper.type}</span>
                 </div>
             </div>
