@@ -5,7 +5,7 @@
     },
     "hero-section": {
         "title": "Robotics Engineer",
-        "subtitle": "Bridging the gap between research and real-world robotics applications"
+        "subtitle": "Bridging the gap between Research and Real-World Robotics Applications"
     },
     "about-section": {
         "about_lead": "I am a roboticist with demonstrated experience of working at a hyper-growth startup. I am passionate about building technology-driven solutions to real-world challenges, particularly in the domains of manufacturing 🏭, agriculture 🌳 and space 🚀. I am eager to learn from mentors and peers who share my enthusiasm and vision.",
@@ -22,7 +22,7 @@
             "Sensor Fusion",
             "Embedded Systems"
         ],
-        "education": "M.S., Computer Science (Robotics) at USC.",
+        "education": "M.S. in Computer Science (Robotics), USC.",
         "experience": "Software, controls, hardware interfaces, perception, autonomy.",
         "research": "Robotic tool manipulation, robot learning, foundational models."
     },
@@ -31,7 +31,7 @@
             "type": "journal",
             "title": "Autonomous Robotic Screwdriving for High-Mix Manufacturing",
             "venue": "Robotics and Computer-Integrated Manufacturing (RCIM)",
-            "description": "An autonomous mobile robot system for high-mix screwdriving that handles significant uncertainties by using physics-informed learning to predict screw-tip dynamics.",
+            "description": "An autonomous mobile robot system for high-mix screwdriving, handling significant uncertainties through physics-informed learning to predict screw-tip dynamics.",
             "tags": ["Tool Manipulation", "Robot Learning", "Manufacturing Automation", "Physics-Informed Learning"],
             "image": "static/assets/screwdriving.jpg",
             "resources": {}
@@ -40,7 +40,7 @@
             "type": "workshop",
             "title": "Identifying Precursors to Failures in Robotic Lift-and-Place Tasks",
             "venue": "2025 Robotics Science and Systems (RSS)",
-            "description": "Proactive failure prediction for lift-and-place tasks by analyzing relative object motion to anticipate failures before they occur. This method significantly improves generalization to unseen objects and provides more precise early warnings of potential failures, validated through both simulation and real-world experiments.",
+            "description": "Proactive failure prediction for lift-and-place tasks, analyzing relative object motion to anticipate failures. This method significantly improves generalization to unseen objects and provides more precise early warnings, validated through both simulation and real-world experiments.",
             "tags": ["Robot Manipulation", "Failure Prediction", "Robot Learning"],
             "image": "static/assets/failure-prediction-pipeline.png",
             "resources": {}
@@ -49,7 +49,7 @@
             "type": "conference",
             "title": "Integrating field of view in human-aware collaborative planning",
             "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
-            "description": "This paper integrates human field-of-view (FOV) limitations into robot planning by adapting to the evolving subtask intent of humans based on their limited perception using a hierarchical online planner.",
+            "description": "This paper integrates human field-of-view (FOV) limitations into robot planning, adapting to evolving human subtask intent based on their limited perception using a hierarchical online planner.",
             "tags": ["Human-Robot Collaboration", "Online Planning", "Human Modelling"],
             "image": "static/assets/belief-tree.png",
             "resources": {
@@ -60,8 +60,8 @@
         {
             "type": "conference",
             "title": "Automated Plan Refinement for Improving Efficiency of Robotic Layup of Composite Sheets",
-            "venue": "2025 IEEE International Conference on Automation Science and Engineering (CASE)",
-            "description": "Robotic composite sheet layup framework that refines robot draping plans by combining human expertise with data-driven learning.",
+            "venue": "2024 IEEE International Conference on Automation Science and Engineering (CASE)",
+            "description": "A robotic composite sheet layup framework that refines robot draping plans by combining human expertise with data-driven learning.",
             "tags": ["Tool Manipulation", "Robot Learning", "Manufacturing Automation", "Online Planning"],
             "image": "static/assets/automated-plan-refinement.png",
             "resources": {
@@ -75,7 +75,7 @@
         {
             "title": "Lidar Obstacle Detection",
             "caption": "Self-Driving Car",
-            "detail": "Custom-built autonomous drone stack with navigation, control and sensor estimation built in simulation.",
+            "detail": "A lidar-based obstacle detection system to identify and track obstacles in real time.",
             "image": "static/assets/obstacle-detection.gif",
             "topic": ["Segmentation", "Clustering", "PCL"],
             "resources": {
@@ -112,11 +112,11 @@
             }
         },
         {
-            "title": "Dynamic Environment Generation",
+            "title": "Dynamic Scene Generation",
             "caption": "Environment Generation",
-            "detail": "Dynamically generate novel grid based 2D environments and photorealistic 3D indoor environments for planning tasks.",
+            "detail": "Dynamically generated novel grid-based 2D environments and photorealistic 3D indoor environments for planning tasks.",
             "image": "static/assets/2d-environment.png",
-            "topic": ["GAN", "Kernels"],
+            "topic": ["GAN", "RBF Kernels", "Implicit Surface"],
             "resources": {
                 "code": [
                     {
@@ -134,9 +134,9 @@
         {
             "title": "Service Robot Simulation",
             "caption": "ROS Simulation",
-            "detail": "Mobile robot simulation to orchastrate a pick and place operation in a photorealistic 3D indoor environment.",
+            "detail": "Mobile robot simulation to orchestrate a pick-and-place operation in a photorealistic 3D indoor environment.",
             "image": "static/assets/service-robot-mission.png",
-            "topic": ["ROS", "Gazebo", "ROS nav stack"],
+            "topic": ["ROS", "Gazebo", "ROS Nav Stack", "SLAM Gmapping"],
             "resources": {
                 "code": [
                     {
@@ -150,7 +150,7 @@
         {
             "title": "Route Planning",
             "caption": "Maps",
-            "detail": "Planning a route using A* algorithm on data from Open Street Map project.",
+            "detail": "Planning a route using the A* algorithm with data from the OpenStreetMap project.",
             "image": "static/assets/street-plan.png",
             "topic": ["Open Street Maps", "A*"],
             "resources": {
@@ -207,7 +207,7 @@
         },
         {
             "title": "Surface Reconstruction for Robotic Finishing",
-            "description": "Designed a robust surface reconstruction pipeline for industrial robotic applications aimed at automating complex surface finishing tasks such as sanding, grinding, and polishing. The system fuses multi-sensor data to generate high-fidelity 3D surface models, enabling accurate toolpath planning on freeform and irregular geometries. The algorithm explores the use of SLAM, implicit surface modeling, and deep learning for generalization across materials and shapes.",
+            "description": "Designed a robust surface reconstruction pipeline for industrial robotic applications aimed at automating complex surface finishing tasks such as sanding, grinding, and polishing. The system fuses multi-sensor data to generate high-fidelity 3D surface models, enabling accurate toolpath planning on freeform and irregular geometries. The algorithm explores SLAM, implicit surface modeling, and deep learning for generalization across materials and shapes.",
             "icon": "fas fa-cubes",
             "iconBackground": "bg-gradient-to-r from-emerald-500 to-teal-400",
             "leftColumn": {
@@ -226,19 +226,19 @@
     "personal-life": [
         {
             "title": "Go Karting",
-            "description": "Racing enthusiast with a passion for high-speed karting. Love the engineering behind these machines and the precision required for competitive racing.",
+            "description": "A racing enthusiast with a passion for high-speed karting. I love the engineering behind these machines and the precision required for competitive racing.",
             "video": "https://www.youtube.com/embed/kNXEpESH5co?si=cxcaa06oOzB2dY3I",
             "gradient": "from-red-500/20 to-orange-500/20"
         },
         {
             "title": "Strategy Games",
-            "description": "Passionate about strategy games, particularly Age of Mythology Retold and Sins of a Solar Empire II. Love the tactical depth and mythological and futuristic themes respectfully.",
+            "description": "Passionate about strategy games, particularly Age of Mythology Retold and Sins of a Solar Empire II. I love their tactical depth and their respective mythological and futuristic themes.",
             "video": "https://www.youtube.com/embed/gZLDrbpEPjI?si=7MH6Go2R-A5bW4W4",
             "gradient": "from-purple-500/20 to-blue-500/20"
         },
         {
             "title": "Legendary Game Worlds",
-            "description": "Enthusiastic about story-driven games which blend rich characters, cinematic visuals, immersive mechanics, and powerful music — true masterpieces of modern interactive art.",
+            "description": "Enthusiastic about story-driven games that blend rich characters, cinematic visuals, immersive mechanics, and powerful music — true masterpieces of modern interactive art.",
             "video": "https://www.youtube.com/embed/fllsKUNp8VA?si=8ERpr9DtfKjwCB7b",
             "gradient": "from-yellow-500/20 to-amber-500/20"
         }
