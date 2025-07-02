@@ -116,7 +116,7 @@
             "caption": "Environment Generation",
             "detail": "Dynamically generated novel grid-based 2D environments and photorealistic 3D indoor environments for planning tasks.",
             "image": "static/assets/2d-environment.png",
-            "topic": ["GAN", "RBF Kernels", "Implicit Surface"],
+            "topic": ["GAN", "RBF Kernels", "Implicit Surfaces"],
             "resources": {
                 "code": [
                     {
