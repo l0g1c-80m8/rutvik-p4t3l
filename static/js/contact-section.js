@@ -72,7 +72,8 @@ class ContactSection extends HTMLElement {
     }
     
     const formData = data.form || {};
-    const successMessage = formData.successMessage || 'Thank you for reaching out! I\'ll get back to you soon.';
+    // const successMessage = formData.successMessage || 'Thank you for reaching out! I\'ll get back to you soon.';
+    const successMessage = 'This form is not yet active. Please email me directly. I\'ll get back to you soon!';
     
     form.addEventListener('submit', (e) => {
       e.preventDefault();
