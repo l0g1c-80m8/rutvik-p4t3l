@@ -42,7 +42,7 @@
             "venue": "2025 Robotics Science and Systems (RSS)",
             "description": "Proactive failure prediction for lift-and-place tasks, analyzing relative object motion to anticipate failures. This method significantly improves generalization to unseen objects and provides more precise early warnings, validated through both simulation and real-world experiments.",
             "tags": ["Robot Manipulation", "Failure Prediction", "Robot Learning"],
-            "image": "static/assets/failure-prediction-pipeline.png",
+            "image": "static/assets/failure-prediction-poster.jpg",
             "resources": {}
         },
         {
