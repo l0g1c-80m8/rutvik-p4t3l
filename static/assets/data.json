@@ -5,7 +5,13 @@
     },
     "hero-section": {
         "title": "Robotics Engineer",
-        "subtitle": "Bridging the gap between Research and Real-World Robotics Applications"
+        "subtitle": "Bridging the gap between Research and Real-World Robotics Applications",
+        "avatars": [
+            "static/assets/avatar_linkedin.jpeg",
+            "static/assets/avatar_hike.jpg",
+            "static/assets/avatar_github.png",
+            "static/assets/avatar_lit.jpg"
+        ]
     },
     "about-section": {
         "about_lead": "I am a roboticist with demonstrated experience of working at hyper-growth startups. I am passionate about building technology-driven solutions to real-world challenges, particularly in the domains of manufacturing 🏭, agriculture 🌳 and space 🚀. I am eager to learn from mentors and peers who share my enthusiasm and vision.",
